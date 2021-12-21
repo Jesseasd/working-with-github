@@ -1,0 +1,129 @@
+$primary-color: white;
+$secondary-color: black;
+
+body {
+    background-image: url(../../images/raccoon-g412a61c1f_1920.jpg);
+}
+
+#logo {
+    max-width: 50px;
+}
+
+.btn {
+    margin-top: 50px;
+    background-color: $primary-color;
+    color: $secondary-color;
+}
+
+a {
+    display: contents;
+    text-decoration: none;
+    color: $secondary-color;
+}
+
+#text-content {
+    color: $primary-color;
+    border: 1px solid $primary-color;
+    border-radius: 10px;
+    height: 400px;
+    margin-top: 200px;
+    padding-top: 60px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+p {
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media only screen and (max-width: 1199px) {
+    #text-content {
+        height: 450px;
+    }
+
+    body {
+        background-attachment: fixed;
+        background-position: center;
+        background-position-y: -50px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #text-content {
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #text-content {
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    #text-content {
+        height: 650px;
+    }
+}
+
+@media only screen and (max-width: 454px) {
+    #text-content {
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width: 429px) {
+    #text-content {
+        height: 750px;
+    }
+}
+
+@media only screen and (max-width: 401px) {
+    #text-content {
+        height: 800px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #text-content {
+        height: 850px;
+    }
+}
+
+@media only screen and (max-width: 369px) {
+    #text-content {
+        height: 900px;
+    }
+}
+
+@media only screen and (max-width: 344px) {
+    #text-content {
+        height: 950px;
+    }
+}
+
+@media only screen and (max-width: 329px) {
+    #text-content {
+        height: 1000px;
+    }
+}
+
+@media only screen and (max-width: 323px) {
+    #text-content {
+        height: 1050px;
+    }
+}
+
+@media only screen and (max-width: 313px) {
+    #text-content {
+        height: 1100px;
+    }
+}
+
+@media only screen and (max-width: 299px) {
+    #text-content {
+        height: 1200px;
+    }
+}

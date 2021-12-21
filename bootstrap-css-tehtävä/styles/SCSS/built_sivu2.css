@@ -1,0 +1,102 @@
+body {
+  background-color: #1b1e23;
+}
+
+.container {
+  background-image: url(../../images/raccoon-gb938f9876_1920.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-position-x: 10px;
+  background-position-y: 0px;
+}
+
+#logo {
+  max-width: 50px;
+}
+
+.btn {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  background-color: white;
+  color: black;
+}
+
+a {
+  display: contents;
+  text-decoration: none;
+  color: black;
+}
+
+.carousel {
+  max-height: 450px;
+}
+
+.carousel-item {
+  max-height: 450px;
+}
+
+.accordion {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#bg-div1 {
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 50px;
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#bg-div2 {
+  margin-top: 50px;
+  border-bottom: 1px solid black;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#header {
+  text-align: center;
+  color: white;
+}
+
+.col {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1199px) {
+  #bg-div1 {
+    padding-top: 55px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #bg-div1 {
+    height: 350px;
+    padding-top: 45px;
+  }
+
+  .container {
+    background-position-x: -400px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #bg-div1 {
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  #bg-div1, .carousel {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=built_sivu2.css.map */
