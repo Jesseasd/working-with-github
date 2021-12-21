@@ -1,0 +1,101 @@
+body {
+    background-image: url(images/clouds-g15f02b259_1920.jpg);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    color: white; 
+}
+
+.grid-item0 {
+    grid-column: 1/6;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+    -webkit-text-stroke: 2px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-item1 {
+    grid-column: 1/6;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+    -webkit-text-stroke: 2px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-item3 {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 300px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.grid-item4 {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.grid-item5 {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+button {
+    margin-top: 150px;
+}
+
+h3 {
+    margin-top: 140px;
+}
+
+#temp, #desc, #wind {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+#thermostat, #air, #cloud {
+    font-size: 100px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 1126px) {
+    .grid-item3, .grid-item4, .grid-item5 {
+        grid-column: 2/5;
+        height: 200px;
+    }
+
+    h3 {
+        margin-top: 100px;
+    }
+
+    #temp, #desc, #wind {
+        margin-top: 20px;
+    }
+
+    #thermostat, #air, #cloud {
+        font-size: 70px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 472px) {
+    .grid-item3, .grid-item4, .grid-item5 {
+        height: 250px;
+    }
+
+    h3 {
+        margin-top: 120px;
+    }
+}
