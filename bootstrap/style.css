@@ -1,0 +1,3 @@
+*[class^="col-"], .col {
+    border: 1px solid black;
+}
